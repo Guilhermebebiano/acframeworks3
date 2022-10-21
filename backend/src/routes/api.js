@@ -1,9 +1,9 @@
 const express = require("express");
 
-const Aulaframeworks = require("../../app/controllers/Aulaframeworks");
+const AulaFrameworks = require("../../app/controllers/AulaFrameworks");
 
 const router = express.Router();
 
-router.get("/users", Aulaframeworks.index);
+router.get("/users", AulaFrameworks.index);
 
 module.exports = router;
